@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Books — ReadVault</title>
+    <meta name="description"
+        content="Browse Amazon bestsellers by category. Fiction, business, self-help, mystery and more — all with verified ratings and affiliate deals." />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
+</head>
+
+<body>
+
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="4" y="4" width="11" height="24" rx="2" fill="#c9a048" />
+                    <rect x="17" y="4" width="11" height="24" rx="2" fill="#8a6c2e" />
+                </svg>
+                Read<span>Vault</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html" class="active">Browse Books</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <a href="https://amzn.to/4cqtHWZ" target="_blank" rel="noopener" class="btn btn-primary nav-cta">Free
+                Audible Trial</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ── Page Hero ─────────────────────────────────────── -->
+    <div class="page-hero">
+        <div class="container">
+            <span class="eyebrow">📚 Updated Daily</span>
+            <h1>Browse <em style="color:var(--gold); font-style:italic;">All Books</em></h1>
+            <p style="margin-top:16px; color:var(--parchment-2); max-width:520px; margin-left:auto; margin-right:auto;">
+                Amazon bestsellers across every genre. Real ratings, real readers, real picks.
+            </p>
+        </div>
+    </div>
+
+    <!-- ── Filter + Grid ─────────────────────────────────── -->
+    <section class="section-sm">
+        <div class="container">
+
+            <div class="filter-tabs" id="filter-tabs">
+                <button class="filter-tab active" data-cat="all">All Books</button>
+                <button class="filter-tab" data-cat="fiction">Fiction</button>
+                <button class="filter-tab" data-cat="business">Business</button>
+                <button class="filter-tab" data-cat="selfhelp">Self Help</button>
+                <button class="filter-tab" data-cat="mystery">Mystery</button>
+                <button class="filter-tab" data-cat="science">Science</button>
+                <button class="filter-tab" data-cat="biography">Biography</button>
+            </div>
+
+            <div class="books-grid" id="books-grid">
+
+                <!-- Fiction -->
+                <div class="book-card reveal" data-cat="fiction">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">BookTok Fave</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Fiction</span>
+                        <div class="book-title">The Midnight Library</div>
+                        <div class="book-author">by Matt Haig</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.5
+                                (89k)</span></div>
+                        <a href="https://www.amazon.com/dp/0525559477?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <div class="book-card reveal" data-cat="fiction">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">Bestseller</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Fiction</span>
+                        <div class="book-title">Tomorrow, and Tomorrow, and Tomorrow</div>
+                        <div class="book-author">by Gabrielle Zevin</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.6
+                                (55k)</span></div>
+                        <a href="https://www.amazon.com/dp/0593321200?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Self Help -->
+                <div class="book-card reveal" data-cat="selfhelp">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">#1 Bestseller</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Self Help</span>
+                        <div class="book-title">Atomic Habits</div>
+                        <div class="book-author">by James Clear</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.8
+                                (127k)</span></div>
+                        <a href="https://www.amazon.com/dp/0735211299?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <div class="book-card reveal" data-cat="selfhelp">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">Top Rated</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Self Help</span>
+                        <div class="book-title">The Psychology of Money</div>
+                        <div class="book-author">by Morgan Housel</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.7
+                                (62k)</span></div>
+                        <a href="https://www.amazon.com/dp/0857197681?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Business -->
+                <div class="book-card reveal" data-cat="business">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">#1 in Business</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Business</span>
+                        <div class="book-title">The Lean Startup</div>
+                        <div class="book-author">by Eric Ries</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.6
+                                (42k)</span></div>
+                        <a href="https://www.amazon.com/dp/0307887898?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <div class="book-card reveal" data-cat="business">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">Must Read</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Business</span>
+                        <div class="book-title">Zero to One</div>
+                        <div class="book-author">by Peter Thiel</div>
+                        <div class="book-rating"><span class="stars">★★★★☆</span><span class="rating-count">4.5
+                                (28k)</span></div>
+                        <a href="https://www.amazon.com/dp/0804139296?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Mystery -->
+                <div class="book-card reveal" data-cat="mystery">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">Page Turner</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Mystery</span>
+                        <div class="book-title">The Thursday Murder Club</div>
+                        <div class="book-author">by Richard Osman</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.5
+                                (38k)</span></div>
+                        <a href="https://www.amazon.com/dp/1984880985?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <div class="book-card reveal" data-cat="mystery">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">Bestseller</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Mystery</span>
+                        <div class="book-title">The Girl with the Dragon Tattoo</div>
+                        <div class="book-author">by Stieg Larsson</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.5
+                                (71k)</span></div>
+                        <a href="https://www.amazon.com/dp/0307949486?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Science -->
+                <div class="book-card reveal" data-cat="science">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">Award Winner</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Science</span>
+                        <div class="book-title">A Short History of Nearly Everything</div>
+                        <div class="book-author">by Bill Bryson</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.7
+                                (34k)</span></div>
+                        <a href="https://www.amazon.com/dp/076790818X?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <!-- Biography -->
+                <div class="book-card reveal" data-cat="biography">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">Top Pick</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Biography</span>
+                        <div class="book-title">Elon Musk</div>
+                        <div class="book-author">by Walter Isaacson</div>
+                        <div class="book-rating"><span class="stars">★★★★☆</span><span class="rating-count">4.4
+                                (48k)</span></div>
+                        <a href="https://www.amazon.com/dp/1982181281?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <div class="book-card reveal" data-cat="selfhelp">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">Life Changer</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Self Help</span>
+                        <div class="book-title">Can't Hurt Me</div>
+                        <div class="book-author">by David Goggins</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.9
+                                (78k)</span></div>
+                        <a href="https://www.amazon.com/dp/1544512287?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+                <div class="book-card reveal" data-cat="fiction">
+                    <div class="book-card-img">
+                        <div class="no-img">📖</div>
+                        <span class="book-badge">BookTok Obsessed</span>
+                    </div>
+                    <div class="book-card-body">
+                        <span class="book-category">Fiction</span>
+                        <div class="book-title">It Ends with Us</div>
+                        <div class="book-author">by Colleen Hoover</div>
+                        <div class="book-rating"><span class="stars">★★★★★</span><span class="rating-count">4.7
+                                (142k)</span></div>
+                        <a href="https://www.amazon.com/dp/1501110365?tag=louisamazonaf-20" target="_blank"
+                            rel="noopener" class="btn btn-amazon">🛒 View on Amazon</a>
+                    </div>
+                </div>
+
+            </div><!-- /books-grid -->
+
+            <div id="no-results" style="display:none; text-align:center; padding: 80px 0; color:var(--text-muted);">
+                <div style="font-size:3rem; margin-bottom:16px;">📚</div>
+                <p>No books found in this category yet. Check back soon!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ── Audible Banner ─────────────────────────────────── -->
+    <section class="section-sm" style="background: var(--dark-2);">
+        <div class="container">
+            <div class="audible-banner reveal">
+                <div class="audible-banner-text">
+                    <div class="audible-tag">audible</div>
+                    <h2>Listen to Any Book Free</h2>
+                    <p>30-day free trial. First audiobook free. Cancel anytime.</p>
+                </div>
+                <a href="https://amzn.to/4cqtHWZ" target="_blank" rel="noopener" class="btn-audible">
+                    🎧 Start Free Trial
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo" style="display:inline-flex;">Read<span>Vault</span></a>
+                    <p>Your daily dose of must-read books.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Browse</h4>
+                    <ul>
+                        <li><a href="books.html">All Books</a></li>
+                        <li><a href="books.html?cat=fiction">Fiction</a></li>
+                        <li><a href="books.html?cat=business">Business</a></li>
+                        <li><a href="books.html?cat=selfhelp">Self Help</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ReadVault</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="https://www.youtube.com/@ReadVaultHQ" target="_blank" rel="noopener">YouTube</a>
+                        </li>
+                        <li><a href="https://amzn.to/4cqtHWZ" target="_blank" rel="noopener">Free Audible</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="affiliate-disclosure">
+                ⚠️ <strong>Affiliate Disclosure:</strong> As an Amazon Associate we earn from qualifying purchases at no
+                extra cost to you.
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 ReadVault. All rights reserved.</p>
+                <div style="display:flex; gap: 20px;"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReadVault — Your Daily Must-Read Book Picks</title>
+  <meta name="description" content="Discover today's Amazon bestsellers and must-read books. Curated daily picks, honest reviews, and exclusive deals on the best books across every genre." />
+  <meta property="og:title" content="ReadVault — Daily Book Picks" />
+  <meta property="og:description" content="Curated Amazon bestsellers delivered daily. Find your next favourite read." />
+  <meta property="og:url" content="https://readvaulthq.com" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
+</head>
+<body>
+
+  <!-- ── Navigation ───────────────────────────────────── -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="ReadVault Home">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="4" width="11" height="24" rx="2" fill="#c9a048"/>
+          <rect x="17" y="4" width="11" height="24" rx="2" fill="#8a6c2e"/>
+          <rect x="6" y="8" width="7" height="1.5" rx="0.75" fill="#120e08" opacity="0.6"/>
+          <rect x="6" y="11" width="5" height="1.5" rx="0.75" fill="#120e08" opacity="0.4"/>
+        </svg>
+        Read<span>Vault</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="books.html">Browse Books</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="books.html" class="btn btn-primary nav-cta">Browse Books</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">📚 Updated Daily — Amazon Bestsellers</div>
+        <h1>Discover Your Next <em>Great Read</em></h1>
+        <p>Hand-picked Amazon bestsellers across every genre, updated daily. Find must-read books with real ratings, honest picks, and deals you won't find scrolling alone.</p>
+        <div class="hero-actions">
+          <a href="books.html" class="btn btn-primary">Browse Today's Picks →</a>
+          <a href="https://amzn.to/4cqtHWZ" class="btn btn-outline" target="_blank" rel="noopener">🎧 Free Audible Trial</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-value">500+</div>
+            <div class="stat-label">Books Reviewed</div>
+          </div>
+          <div>
+            <div class="stat-value">Daily</div>
+            <div class="stat-label">Fresh Picks</div>
+          </div>
+          <div>
+            <div class="stat-value">4.5★</div>
+            <div class="stat-label">Avg Rating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-deco" aria-hidden="true">📚</div>
+  </section>
+
+  <!-- ── Today's Picks ─────────────────────────────────── -->
+  <section class="section" style="background: var(--dark-2);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">📖 Today's Picks</span>
+        <h2>Bestsellers Worth Reading</h2>
+        <p>Amazon's top-rated books curated for readers who don't have time to scroll endlessly.</p>
+      </div>
+
+      <div class="books-grid">
+
+        <div class="book-card reveal">
+          <div class="book-card-img">
+            <div class="no-img">📖</div>
+            <span class="book-badge">Bestseller</span>
+          </div>
+          <div class="book-card-body">
+            <span class="book-category">Self Improvement</span>
+            <div class="book-title">Atomic Habits</div>
+            <div class="book-author">by James Clear</div>
+            <div class="book-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">4.8 (127k reviews)</span>
+            </div>
+            <a href="https://www.amazon.com/dp/0735211299?tag=louisamazonaf-20" target="_blank" rel="noopener" class="btn btn-amazon">
+              🛒 View on Amazon
+            </a>
+          </div>
+        </div>
+
+        <div class="book-card reveal">
+          <div class="book-card-img">
+            <div class="no-img">📖</div>
+            <span class="book-badge">#1 in Business</span>
+          </div>
+          <div class="book-card-body">
+            <span class="book-category">Business</span>
+            <div class="book-title">The Lean Startup</div>
+            <div class="book-author">by Eric Ries</div>
+            <div class="book-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">4.6 (42k reviews)</span>
+            </div>
+            <a href="https://www.amazon.com/dp/0307887898?tag=louisamazonaf-20" target="_blank" rel="noopener" class="btn btn-amazon">
+              🛒 View on Amazon
+            </a>
+          </div>
+        </div>
+
+        <div class="book-card reveal">
+          <div class="book-card-img">
+            <div class="no-img">📖</div>
+            <span class="book-badge">BookTok Favourite</span>
+          </div>
+          <div class="book-card-body">
+            <span class="book-category">Fiction</span>
+            <div class="book-title">The Midnight Library</div>
+            <div class="book-author">by Matt Haig</div>
+            <div class="book-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-count">4.5 (89k reviews)</span>
+            </div>
+            <a href="https://www.amazon.com/dp/0525559477?tag=louisamazonaf-20" target="_blank" rel="noopener" class="btn btn-amazon">
+              🛒 View on Amazon
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align:center; margin-top: 48px;">
+        <a href="books.html" class="btn btn-outline">See All Books →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Why ReadVault ─────────────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Why ReadVault</span>
+        <h2>Stop Wasting Time Finding Your Next Book</h2>
+        <p>We do the hard work so you can spend more time reading.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <span class="feature-icon">📊</span>
+          <h3>Amazon Bestseller Data</h3>
+          <p>Every pick is sourced from Amazon's real bestseller charts — not sponsored, not guessed.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon">⭐</span>
+          <h3>Verified Ratings Only</h3>
+          <p>We only feature books with 4.0+ stars and hundreds of real reader reviews.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon">🔄</span>
+          <h3>Updated Every Day</h3>
+          <p>Fresh picks daily across fiction, business, self-help, mystery, and more.</p>
+        </div>
+        <div class="feature-card reveal">
+          <span class="feature-icon">🎧</span>
+          <h3>Audible Friendly</h3>
+          <p>Every book is available on Audible. Start your free 30-day trial and listen on the go.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Audible Banner ─────────────────────────────────── -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="audible-banner reveal">
+        <div class="audible-banner-text">
+          <div class="audible-tag">audible</div>
+          <h2>Listen to Any Book — Free for 30 Days</h2>
+          <p>Start your free Audible trial and get your first audiobook completely free. Cancel anytime.</p>
+        </div>
+        <a href="https://amzn.to/4cqtHWZ" target="_blank" rel="noopener" class="btn-audible">
+          🎧 Start Free Trial
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ───────────────────────────────────────────── -->
+  <section class="section" style="background: var(--dark-2);">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Follow Us for Daily Book Drops</h2>
+        <p>We post a new book review every day across YouTube, TikTok, and Instagram. Never run out of great reads again.</p>
+        <div class="hero-actions" style="justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <a href="https://www.youtube.com/@ReadVaultHQ" target="_blank" rel="noopener" class="btn btn-outline">▶ YouTube</a>
+          <a href="https://www.tiktok.com/@readvault" target="_blank" rel="noopener" class="btn btn-outline">♪ TikTok</a>
+          <a href="https://www.instagram.com/readvault" target="_blank" rel="noopener" class="btn btn-outline">📸 Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="display:inline-flex;">Read<span>Vault</span></a>
+          <p>Your daily dose of must-read books. Amazon bestsellers, verified ratings, and honest picks — updated every day.</p>
+          <div class="social-links">
+            <a href="https://www.youtube.com/@ReadVaultHQ" target="_blank" rel="noopener" class="social-link" title="YouTube">▶</a>
+            <a href="https://www.tiktok.com/@readvault" target="_blank" rel="noopener" class="social-link" title="TikTok">♪</a>
+            <a href="https://www.instagram.com/readvault" target="_blank" rel="noopener" class="social-link" title="Instagram">📸</a>
+            <a href="https://www.facebook.com/readvault" target="_blank" rel="noopener" class="social-link" title="Facebook">f</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Browse</h4>
+          <ul>
+            <li><a href="books.html">All Books</a></li>
+            <li><a href="books.html?cat=fiction">Fiction</a></li>
+            <li><a href="books.html?cat=business">Business</a></li>
+            <li><a href="books.html?cat=selfhelp">Self Help</a></li>
+            <li><a href="books.html?cat=mystery">Mystery</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>ReadVault</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="https://www.youtube.com/@ReadVaultHQ" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="https://amzn.to/4cqtHWZ" target="_blank" rel="noopener">Free Audible Trial</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="affiliate-disclosure">
+        ⚠️ <strong>Affiliate Disclosure:</strong> ReadVault participates in the Amazon Associates Programme. As an Amazon Associate we earn from qualifying purchases. This means if you click a link and make a purchase, we may receive a small commission at no extra cost to you. Prices and availability are accurate as of the time of publication.
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 ReadVault. All rights reserved.</p>
+        <div style="display:flex; gap: 20px;">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
