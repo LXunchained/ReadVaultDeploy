@@ -679,3 +679,56 @@ footer {
   .footer-grid { grid-template-columns: 1fr; }
   .books-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
 }
+
+/* -- Dynamic grid divider ---------------------------------------- */
+.grid-divider {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 0 4px;
+  color: var(--text-muted, #a8956e);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.grid-divider::before,
+.grid-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(201,160,72,0.2);
+}
+
+/* -- Skeleton loader card ---------------------------------------- */
+.skeleton-card { pointer-events: none; }
+.skeleton-img  { background: rgba(255,255,255,0.06); border-radius: 12px 12px 0 0; height: 220px; }
+.skeleton-line {
+  height: 14px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.06);
+  margin: 10px 0;
+  animation: skeleton-pulse 1.4s ease-in-out infinite;
+}
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.4; }
+  50%       { opacity: 0.9; }
+}
+
+/* -- YouTube video badge on book card --------------------------- */
+.video-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(255,0,0,0.85);
+  color: #fff;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s;
+  z-index: 2;
+}
+.video-badge:hover { background: #cc0000; }

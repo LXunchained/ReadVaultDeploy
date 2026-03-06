@@ -63,6 +63,26 @@
 
             <div class="books-grid" id="books-grid">
 
+                <!-- Dynamic books injected here by app.js from data/books.json -->
+                <div id="dynamic-books"></div>
+
+                <!-- Divider shown only after dynamic books load -->
+                <div id="static-divider" class="grid-divider" style="display:none;">
+                    <span>📖 Curated Classics</span>
+                </div>
+
+                <!-- Skeleton loader shown while fetching -->
+                <div id="books-skeleton" class="book-card skeleton-card" aria-hidden="true">
+                    <div class="book-card-img skeleton-img"></div>
+                    <div class="book-card-body">
+                        <div class="skeleton-line" style="width:40%"></div>
+                        <div class="skeleton-line" style="width:80%"></div>
+                        <div class="skeleton-line" style="width:55%"></div>
+                    </div>
+                </div>
+
+                <!-- Static curated books ──────────────────────────────── -->
+
                 <!-- Fiction -->
                 <div class="book-card reveal" data-cat="fiction">
                     <div class="book-card-img">
