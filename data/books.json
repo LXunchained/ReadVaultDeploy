@@ -1,5 +1,18 @@
 [
     {
+        "id": "the-constitution-of-the-united-states-and-the-decl-1631581481",
+        "title": "The Constitution of the United States and The Declaration of Independence",
+        "author": "Delegates of  The Constitutional Convention",
+        "category": "Biography",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/1631581481?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "1631581481",
+        "addedAt": "2026-03-07T23:56:47Z",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81HGOLMQ+UL._AC_UL300_SR300,200_.jpg"
+    },
+    {
         "id": "the-road-to-unfreedom-russia-europe-america-B074YM8W91",
         "title": "The Road to Unfreedom: Russia, Europe, America",
         "author": "Timothy Snyder",
@@ -7,7 +20,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/B074YM8W91?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "B074YM8W91",
         "addedAt": "2026-03-07T15:29:27Z",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71D+5bIo8-L._AC_UL300_SR300,200_.jpg"
