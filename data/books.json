@@ -1,5 +1,19 @@
 [
     {
+        "id": "framed-astonishing-true-stories-of-wrongful-convic-B0CY6QF69N",
+        "title": "Framed: Astonishing True Stories of Wrongful Convictions",
+        "author": "Unknown Author",
+        "category": "Biography",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/B0CY6QF69N?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "B0CY6QF69N",
+        "addedAt": "2026-03-07T13:22:02Z",
+        "youtubeId": "otx6w386auw",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91nBUMkUmML._AC_UL300_SR300,200_.jpg"
+    },
+    {
         "id": "fundamentals-of-data-engineering-plan-and-build-ro-1098108302",
         "title": "Fundamentals of Data Engineering: Plan and Build Robust Data Systems",
         "author": "Joe Reis",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 4.7/5",
         "url": "https://www.amazon.com/dp/1098108302?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "1098108302",
         "addedAt": "2026-03-07T01:05:31Z",
         "youtubeId": "MpjQ0dknS2U",
