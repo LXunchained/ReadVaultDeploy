@@ -1,5 +1,19 @@
 [
     {
+        "id": "fundamentals-of-data-engineering-plan-and-build-ro-1098108302",
+        "title": "Fundamentals of Data Engineering: Plan and Build Robust Data Systems",
+        "author": "Joe Reis",
+        "category": "Mystery",
+        "subtitle": "⭐ 4.7/5",
+        "url": "https://www.amazon.com/dp/1098108302?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "1098108302",
+        "addedAt": "2026-03-07T01:05:31Z",
+        "youtubeId": "MpjQ0dknS2U",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81+oMD7Lm7L._AC_UL300_SR300,200_.jpg"
+    },
+    {
         "id": "how-linux-works-3rd-edition-what-every-superuser-s-1718500408",
         "title": "How Linux Works, 3rd Edition: What Every Superuser Should Know",
         "author": "Brian Ward",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 4.7/5",
         "url": "https://www.amazon.com/dp/1718500408?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "1718500408",
         "addedAt": "2026-03-06T23:24:01Z",
         "youtubeId": "FrwY4PJPTTM",
