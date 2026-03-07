@@ -1,5 +1,18 @@
 [
     {
+        "id": "the-road-to-unfreedom-russia-europe-america-B074YM8W91",
+        "title": "The Road to Unfreedom: Russia, Europe, America",
+        "author": "Timothy Snyder",
+        "category": "Biography",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/B074YM8W91?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "B074YM8W91",
+        "addedAt": "2026-03-07T15:29:27Z",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71D+5bIo8-L._AC_UL300_SR300,200_.jpg"
+    },
+    {
         "id": "forgotten-home-apothecary-250-powerful-remedies-at-B0DJQVYV99",
         "title": "Forgotten Home Apothecary : 250 Powerful Remedies at Your Fingertips",
         "author": "Dr. Nicole Apelian",
@@ -7,7 +20,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/B0DJQVYV99?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "B0DJQVYV99",
         "addedAt": "2026-03-07T13:41:46Z",
         "youtubeId": "HiCxoTyAAmE",
