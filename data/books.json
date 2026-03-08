@@ -1,5 +1,18 @@
 [
     {
+        "id": "maintenance-of-everything-part-one-1953953492",
+        "title": "Maintenance of Everything: Part One",
+        "author": "Stewart Brand",
+        "category": "Sci-Fi",
+        "subtitle": "⭐ 4.4/5",
+        "url": "https://www.amazon.com/dp/1953953492?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "1953953492",
+        "addedAt": "2026-03-08T21:37:03Z",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91t6OROY8qL._SL1500_.jpg"
+    },
+    {
         "id": "super-agers-an-evidence-based-approach-to-longevit-1668067668",
         "title": "Super Agers: An Evidence-Based Approach to Longevity",
         "author": "Eric Topol",
@@ -7,7 +20,7 @@
         "subtitle": "⭐ 4.3/5",
         "url": "https://www.amazon.com/dp/1668067668?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "1668067668",
         "addedAt": "2026-03-08T20:05:34Z",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81CE17H36yL._SL1500_.jpg"
