@@ -1,5 +1,18 @@
 [
     {
+        "id": "robert-s-rules-of-order-newly-revised-in-brief-3rd-1541797701",
+        "title": "Robert's Rules of Order Newly Revised In Brief, 3rd edition",
+        "author": "Henry M. Robert III",
+        "category": "Biography",
+        "subtitle": "⭐ 4.7/5",
+        "url": "https://www.amazon.com/dp/1541797701?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "1541797701",
+        "addedAt": "2026-03-08T15:26:12Z",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/7193oyIfBPL._SL1500_.jpg"
+    },
+    {
         "id": "once-upon-a-time-the-captivating-life-of-carolyn-b-1982178973",
         "title": "Once Upon a Time: The Captivating Life of Carolyn Bessette-Kennedy",
         "author": "Elizabeth Beller",
@@ -7,7 +20,7 @@
         "subtitle": "⭐ 4.3/5",
         "url": "https://www.amazon.com/dp/1982178973?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "1982178973",
         "addedAt": "2026-03-08T13:22:13Z",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71W3-X1+AJL._SL1500_.jpg"
