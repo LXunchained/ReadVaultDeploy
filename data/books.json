@@ -1,5 +1,18 @@
 [
     {
+        "id": "once-upon-a-time-the-captivating-life-of-carolyn-b-1982178973",
+        "title": "Once Upon a Time: The Captivating Life of Carolyn Bessette-Kennedy",
+        "author": "Elizabeth Beller",
+        "category": "Business",
+        "subtitle": "⭐ 4.3/5",
+        "url": "https://www.amazon.com/dp/1982178973?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "1982178973",
+        "addedAt": "2026-03-08T13:22:13Z",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71W3-X1+AJL._SL1500_.jpg"
+    },
+    {
         "id": "how-to-catch-a-leprechaun-a-saint-patrick-s-day-bo-1492632910",
         "title": "How to Catch a Leprechaun: A Saint Patrick's Day Book for Kids",
         "author": "Adam Wallace",
@@ -7,7 +20,7 @@
         "subtitle": "⭐ 4.8/5",
         "url": "https://www.amazon.com/dp/1492632910?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "1492632910",
         "addedAt": "2026-03-08T00:33:41Z",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81geoGNphsL._AC_UL300_SR300,200_.jpg"
