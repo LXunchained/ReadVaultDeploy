@@ -1,5 +1,19 @@
 [
     {
+        "id": "reminders-of-him-a-novel-1542025605",
+        "title": "Reminders of Him: A Novel",
+        "author": "Colleen Hoover",
+        "category": "Books",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/1542025605?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "1542025605",
+        "addedAt": "2026-03-09T23:59:14Z",
+        "youtubeId": "fzW-6tPpnkQ",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71rdsaOMvVL._SL1500_.jpg"
+    },
+    {
         "id": "the-prize-the-epic-quest-for-oil-money-power-B0CVHGNZ27",
         "title": "The Prize: The Epic Quest for Oil, Money & Power",
         "author": "Unknown Author",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/B0CVHGNZ27?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "B0CVHGNZ27",
         "addedAt": "2026-03-09T22:25:53Z",
         "youtubeId": "SZmkg4y-Rjg",
