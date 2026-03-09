@@ -1,5 +1,19 @@
 [
     {
+        "id": "judge-stone-a-novel-0316579831",
+        "title": "Judge Stone: A Novel",
+        "author": "James Patterson",
+        "category": "Books",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/0316579831?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "0316579831",
+        "addedAt": "2026-03-09T21:34:36Z",
+        "youtubeId": "1A7V-tQq64k",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71UbrOC7TwL._SL1500_.jpg"
+    },
+    {
         "id": "i-forgot-my-password-again-password-book-with-alph-B0B573C87N",
         "title": "I Forgot My Password Again: Password Book With Alphabetical Tabs, Page With Number - Protect And Keep Track of Usernames, Websites, Applications, ... organize passwords, 120 pages, 6\"x9”",
         "author": "Unknown Author",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/B0B573C87N?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "B0B573C87N",
         "addedAt": "2026-03-09T17:58:45Z",
         "youtubeId": "Dr3rxQ2Onys",
