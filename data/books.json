@@ -1,5 +1,19 @@
 [
     {
+        "id": "the-prize-the-epic-quest-for-oil-money-power-B0CVHGNZ27",
+        "title": "The Prize: The Epic Quest for Oil, Money & Power",
+        "author": "Unknown Author",
+        "category": "Sci-Fi",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/B0CVHGNZ27?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "B0CVHGNZ27",
+        "addedAt": "2026-03-09T22:25:53Z",
+        "youtubeId": "SZmkg4y-Rjg",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81-Hcd2kuzL._SL1500_.jpg"
+    },
+    {
         "id": "judge-stone-a-novel-0316579831",
         "title": "Judge Stone: A Novel",
         "author": "James Patterson",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/0316579831?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "0316579831",
         "addedAt": "2026-03-09T21:34:36Z",
         "youtubeId": "1A7V-tQq64k",
