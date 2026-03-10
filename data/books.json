@@ -1,5 +1,19 @@
 [
     {
+        "id": "theo-of-golden-a-novel-1668236516",
+        "title": "Theo of Golden: A Novel",
+        "author": "Allen Levi",
+        "category": "Books",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/1668236516?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "1668236516",
+        "addedAt": "2026-03-10T01:33:26Z",
+        "youtubeId": "JXQl2Muc86c",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71PjIDe6FLL._SL1500_.jpg"
+    },
+    {
         "id": "reminders-of-him-a-novel-1542025605",
         "title": "Reminders of Him: A Novel",
         "author": "Colleen Hoover",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/1542025605?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "1542025605",
         "addedAt": "2026-03-09T23:59:14Z",
         "youtubeId": "fzW-6tPpnkQ",
