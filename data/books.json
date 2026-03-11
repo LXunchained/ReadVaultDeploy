@@ -1,5 +1,19 @@
 [
     {
+        "id": "strangers-a-memoir-of-marriage-B0F3WTJ9V2",
+        "title": "Strangers: A Memoir of Marriage",
+        "author": "Belle Burden",
+        "category": "Self-Help",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/B0F3WTJ9V2?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "B0F3WTJ9V2",
+        "addedAt": "2026-03-11T19:47:34Z",
+        "youtubeId": "fpmt18HCpgY",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81aSjHk6WbL._SL1500_.jpg"
+    },
+    {
         "id": "the-mountain-is-you-transforming-self-sabotage-int-B09WXLQM7J",
         "title": "The Mountain Is You: Transforming Self-Sabotage into Self-Mastery",
         "author": "Unknown Author",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/B09WXLQM7J?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "B09WXLQM7J",
         "addedAt": "2026-03-11T18:16:14Z",
         "youtubeId": "GsNXuGAFBdk",
