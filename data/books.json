@@ -1,5 +1,19 @@
 [
     {
+        "id": "the-mountain-is-you-transforming-self-sabotage-int-B09WXLQM7J",
+        "title": "The Mountain Is You: Transforming Self-Sabotage into Self-Mastery",
+        "author": "Unknown Author",
+        "category": "Self-Help",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/B09WXLQM7J?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "B09WXLQM7J",
+        "addedAt": "2026-03-11T18:16:14Z",
+        "youtubeId": "GsNXuGAFBdk",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61UC-FYP3gL._SL1500_.jpg"
+    },
+    {
         "id": "theo-of-golden-a-novel-1668236516",
         "title": "Theo of Golden: A Novel",
         "author": "Allen Levi",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/1668236516?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "1668236516",
         "addedAt": "2026-03-10T01:33:26Z",
         "youtubeId": "JXQl2Muc86c",
