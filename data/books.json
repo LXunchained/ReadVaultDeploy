@@ -1,5 +1,19 @@
 [
     {
+        "id": "the-rainbow-fish-1558585362",
+        "title": "The Rainbow Fish",
+        "author": "Marcus Pfister",
+        "category": "Children's Friendship Books",
+        "subtitle": "⭐ 4.8/5",
+        "url": "https://www.amazon.com/dp/1558585362?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "1558585362",
+        "addedAt": "2026-03-12T18:12:21Z",
+        "youtubeId": "kuwwhJqbzjk",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81YNkSjQ+XL._SL1500_.jpg"
+    },
+    {
         "id": "better-than-a-touchdown-B0FDFWPNH9",
         "title": "Better Than a Touchdown",
         "author": "Jalen Hurts",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 5.0/5",
         "url": "https://www.amazon.com/dp/B0FDFWPNH9?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "B0FDFWPNH9",
         "addedAt": "2026-03-12T18:03:26Z",
         "youtubeId": "v89FmGmtZ5o",
