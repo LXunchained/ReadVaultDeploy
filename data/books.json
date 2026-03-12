@@ -1,5 +1,18 @@
 [
     {
+        "id": "a-court-of-thorns-and-roses-7-B0GRC32G8X",
+        "title": "A Court of Thorns and Roses 7",
+        "author": "Sarah J. Maas",
+        "category": "Books",
+        "subtitle": "⭐ 0.0/5",
+        "url": "https://www.amazon.com/dp/B0GRC32G8X?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "B0GRC32G8X",
+        "addedAt": "2026-03-12T17:53:15Z",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61iIZHXqbxL._SL1500_.jpg"
+    },
+    {
         "id": "don-t-believe-everything-you-think-expanded-editio-B0DHJH6QHB",
         "title": "Don't Believe Everything You Think (Expanded Edition): Why Your Thinking Is The Beginning & End Of Suffering",
         "author": "Joseph Nguyen",
@@ -7,7 +20,7 @@
         "subtitle": "⭐ 4.6/5",
         "url": "https://www.amazon.com/dp/B0DHJH6QHB?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "B0DHJH6QHB",
         "addedAt": "2026-03-11T21:18:03Z",
         "youtubeId": "UsKIVXnTbbs",
