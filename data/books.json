@@ -1,5 +1,19 @@
 [
     {
+        "id": "better-than-a-touchdown-B0FDFWPNH9",
+        "title": "Better Than a Touchdown",
+        "author": "Jalen Hurts",
+        "category": "Children's Values Books",
+        "subtitle": "⭐ 5.0/5",
+        "url": "https://www.amazon.com/dp/B0FDFWPNH9?tag=louisamazonaf-20",
+        "icon": "📚",
+        "isHighlighted": true,
+        "asin": "B0FDFWPNH9",
+        "addedAt": "2026-03-12T18:03:26Z",
+        "youtubeId": "v89FmGmtZ5o",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/818M7sBvR+L._SL1500_.jpg"
+    },
+    {
         "id": "a-court-of-thorns-and-roses-7-B0GRC32G8X",
         "title": "A Court of Thorns and Roses 7",
         "author": "Sarah J. Maas",
@@ -7,7 +21,7 @@
         "subtitle": "⭐ 0.0/5",
         "url": "https://www.amazon.com/dp/B0GRC32G8X?tag=louisamazonaf-20",
         "icon": "📚",
-        "isHighlighted": true,
+        "isHighlighted": false,
         "asin": "B0GRC32G8X",
         "addedAt": "2026-03-12T17:53:15Z",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61iIZHXqbxL._SL1500_.jpg"
